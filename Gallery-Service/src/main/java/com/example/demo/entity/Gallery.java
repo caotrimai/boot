@@ -11,6 +11,10 @@ public class Gallery {
 		this.images = images;
 	}
 
+	public Gallery(Integer id) {
+		this.id = id;
+	}
+
 	public Gallery() {
 	}
 
